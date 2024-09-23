@@ -2,6 +2,9 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     /* Modules */
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ES6",
     "rootDir": "src" /* Specify the root folder within your source files. */,
 
     /* Emit */
